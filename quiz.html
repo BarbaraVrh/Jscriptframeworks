@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      Author: Barbara Vrhovac
+      Date:   5/6/2024
+
+      Filename: quiz.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>JavaScript Frameworks Quiz</title>
+   <link rel="stylesheet" href="styles2.css" />
+   <script src="final.js" defer></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         JavaScript Frameworks quiz
+      </h1>
+   </header>
+
+   <article>
+      <h2></h2>
+      
+      <div id="container">
+         <div id="instructions">
+            <p>Click the <strong>Start Quiz</strong> button below
+               to start the quiz and begin the countdown. Upon completion, incorrect answers
+               will be marked in orange. Retake the quiz as many times as you wish.
+            </p>
+            <input id="startquiz" value="Start Quiz" />
+            <input id="quizclock"  />
+         </div>
+
+         <div id="quiz">
+            <table>
+               <tr>
+                  <td>1) This framework has the steepest learning curve. </td>
+                  <td><input id="question1" /></td>
+               </tr>
+               <tr>
+                  <td>2) Applications using this framework may be created in various languages, including Dart and TypeScript.</td>
+                  <td><input id="question2" /></td>
+               </tr>   
+               <tr>
+                  <td>3) This framework is used to created web applications with minimum effort. </td>
+                  <td><input id="question3" /></td>
+               </tr>   
+               <tr>
+                  <td>4) Angular uses this JavaScript library for type safety.</td>
+                  <td><input id="question4" /></td>
+               </tr>  
+               <tr>
+                  <td>5) The initial protoype of this framework was dubbed FaxJS.</td>
+                  <td><input id="question5" /></td>
+               </tr>       
+   		 <tr>
+                  <td>6) One of the most loved features of this framework is the Command-line interface tool.</td>
+                  <td><input id="question6" /></td>
+               </tr>           
+            </table>
+         </div>
+
+         <div id="overlay" class="hidequiz"></div>
+      </div>
+   </article>
+</body>
+</html>
